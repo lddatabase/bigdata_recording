@@ -1,0 +1,32 @@
+####  Centos/RedHat 
+$ yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+$ yum -y install git-core
+$ git --version
+
+## Windows 平台上安装
+
+安装包下载地址：https://gitforwindows.org/
+官网慢，可以用国内的镜像：https://npm.taobao.org/mirrors/git-for-windows/。
+
+安装完成后会自带有ssh工具和GUI图形化管理工具  
+
+## Git配置  
+$ git config --global user.name "runoob"
+$ git config --global user.email test@runoob.com
+文本编译器使用vim
+差异分析工具：解决合并冲突，使用的工具有很多，像 kdiff3，tkdiff，meld，xxdiff，emerge，vimdiff，gvimdiff，ecmerge，和 opendiff 等合并工具的输出信息。
+
+查看配置信息：
+$ git config --list
+默认的配置文件信息：~/.gitconfig
+
+
+
+
+
+
+
+
+
+
+
