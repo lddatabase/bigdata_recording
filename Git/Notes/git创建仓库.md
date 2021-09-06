@@ -31,15 +31,15 @@ git clone <repo> <directory>
 
 ##  参数说明：
 
-repo:Git 仓库。
-directory:本地目录。
-比如，要克隆 Ruby 语言的 Git 代码仓库 Grit，可以用下面的命令：
+repo:Git 仓库。 \
+directory:本地目录。 \
+比如，要克隆 Ruby 语言的 Git 代码仓库 Grit，可以用下面的命令： \
 
-$ git clone git://github.com/schacon/grit.git
-执行该命令后，会在当前目录下创建一个名为grit的目录，其中包含一个 .git 的目录，用于保存下载下来的所有版本记录。
+$ git clone git://github.com/schacon/grit.git \
+执行该命令后，会在当前目录下创建一个名为grit的目录，其中包含一个 .git 的目录，用于保存下载下来的所有版本记录。 \ 
 
-如果要自己定义要新建的项目目录名称，可以在上面的命令末尾指定新的名字：
-$ git clone git://github.com/schacon/grit.git mygrit
+如果要自己定义要新建的项目目录名称，可以在上面的命令末尾指定新的名字：\
+$ git clone git://github.com/schacon/grit.git mygrit \
   
 ##  配置 
 $ git config --list
@@ -52,6 +52,7 @@ $ git config -e --global   # 针对系统上所有仓库
 ##设置提交代码时的用户信息：
 
 $ git config --global user.name "runoob"
+  
 $ git config --global user.email test@runoob.com
 
 
