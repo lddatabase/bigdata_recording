@@ -6,9 +6,9 @@ sqoop=/opt/data/software/sqoop/bin/sqoop
 
 import_data(){
 $sqoop import \
---connect jdbc:mysql://172.16.41.33:3306/$APP?tinyInt1isBit=false \
---username admin \
---password LancooECP \
+--connect jdbc:mysql://xxx.xxx.xxx.xxx:3306/$APP?tinyInt1isBit=false \
+--username xxxxx \
+--password xxxxx \
 --target-dir /origin_data/school_student/A/$APP/$1/ \
 --query "$2 where \$CONDITIONS" \
 --delete-target-dir \
