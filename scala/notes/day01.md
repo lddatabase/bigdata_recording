@@ -33,7 +33,14 @@ var 变量名：变量类型  =  初始值
 val 修饰的变量不可更改，一旦赋值不可改变  
 var 修饰的变量可更改，但是注意类型  
 Scala命名规则与java基本上是一致的  
+### 数据类型
+Java中分为基本数据类型和引用数据类型  
+基本类型：char、byte、int、short、long、float、double、boolean  
+引用类型：character、byte、integer、short、long、float、double、boolean  
+Java中的基本类型和引用类型并无共同的祖先  
 
+Scala中一切数据都是对象,都是Any的子类  
+![images](https://github.com/lddatabase/bigdata_recording/blob/5ed638ee0a4667e41eb318b40b78ed526f558b55/images/scala%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png)
 
 
 
