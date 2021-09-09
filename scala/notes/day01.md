@@ -39,8 +39,13 @@ Java中分为基本数据类型和引用数据类型
 引用类型：character、byte、integer、short、long、float、double、boolean  
 Java中的基本类型和引用类型并无共同的祖先  
 
-Scala中一切数据都是对象,都是Any的子类  
+1.Scala中一切数据都是对象,都是Any的子类  
 ![images](https://github.com/lddatabase/bigdata_recording/blob/5ed638ee0a4667e41eb318b40b78ed526f558b55/images/scala%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png)
+
+2.scala中数据类型分为数值类型（Anyval）和引用类型(AnyRef), 不管是值类型还是引用类型都是对象  
+3.Scala数据类型仍然遵守：隐式转换 （即低精度的值类型向高精度的值类型的自动转换）  
+4.Scala中的StringOps是对Java中的String增强  
+5.Unit：是对Java的void，用于方法返回值的位置，表示方法没有返回值
 
 
 
