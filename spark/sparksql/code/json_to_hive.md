@@ -34,7 +34,7 @@
 	"Remark": "49980|40560",
 	"SchoolID": "S-A001",
 	"Term": "2020-202102"
-}, {
+}{
 	"EventID": "97b23470-86ae-409b-a8a0-0f439d5c4c4a",
 	"StudentID": "aStu002",
 	"StudentName": "黄林江",
