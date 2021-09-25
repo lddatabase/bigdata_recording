@@ -1,0 +1,36 @@
+闭包是一个函数，返回值依赖于声明在函数外部的一个或多个变量。
+
+闭包通常来讲可以简单的认为是可以访问一个函数里面局部变量的另外一个函数。
+
+如下代码：  
+
+var favtor = 3
+
+val multiplier  =  (i : int) => i * factor  
+
+在 multiplier 中有两个变量：i 和 factor。其中的一个 i 是函数的形式参数，在 multiplier 函数被调用时，i 被赋予一个新的值。然而，factor不是形式参数，而是自由变量
+
+这里我们引入一个自由变量 factor，这个变量定义在函数外面。
+
+这样定义的函数变量 multiplier 成为一个"闭包"，因为它引用到函数外面定义的变量，定义这个函数的过程是将这个自由变量捕获而构成一个封闭的函数。
+
+Object Test {
+
+def main (args : Array[String]): Unit = {
+
+println("result:" + muptipler(12))
+
+println("result: " + muptipler)
+
+}
+var factor = 3  
+
+val muptipler = (i: int) => i * factor 
+
+}
+
+输出结果 ：   
+
+result: 36
+
+result:practice_Scala_Code.conversion_Type$$$Lambda$1/1504109395@587d1d39
