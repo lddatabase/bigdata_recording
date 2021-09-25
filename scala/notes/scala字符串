@@ -1,0 +1,95 @@
+在 Scala 中，字符串的类型实际上是 Java String，它本身没有 String 类。   
+
+在 Scala 中，String 是一个不可变的对象，所以该对象不可被修改。这就意味着你如果修改字符串就会产生一个新的字符串对象，但其他对象，如数组就是可变的对象。
+
+Object Test {
+
+ def main (args : Array[String]) : Unit = {
+ 
+ println (greeting)
+ 
+ }
+ 
+ val greeting : String = "hello world!"
+ 
+}
+
+执行上述代码输出结果：   
+
+Hello, world!
+
+如果你需要创建一个可以修改的字符串，可以使用 String Builder 类
+
+Object Test {
+
+def main (args : Array[String]): Unit = {
+
+val buf = new StringBuffer 
+
+buf += 'a'
+
+buf ++= 'bcdef'
+
+println("buf is :" + buf.toString)
+
+}
+
+}
+
+上述代码输出结果：    
+
+buf is : abcdef
+
+字符串长度正常使用length() 方法即可   
+
+
+字符串连接使用concat() 方法即可  str1.concat(str2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
