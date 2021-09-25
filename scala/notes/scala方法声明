@@ -1,0 +1,62 @@
+Scala 中的函数则是一个完整的对象，Scala 中的函数其实就是继承了 Trait 的类的对象。
+
+Scala 中使用 val 语句可以定义函数，def 语句定义方法。
+
+方法声明：  
+def funcationName ([参数列表]) ：returnType = {
+
+}
+
+如果你不写等于号和方法主体，那么方法会被隐式声明为抽象(abstract)，包含它的类型于是也是一个抽象类型。
+
+方法调用 ：
+
+funcationName(参数列表)   
+
+如果方法使用了实例的对象来调用，我们可以使用类似java的格式 (使用 . 号)：  [instance.]functionName( 参数列表 )
+
+Object Test{
+
+def main(args : Array[String]){
+
+println("result data: "+ sumAdd (12 , 12))
+
+}
+
+def sumAdd (a:int,b:int) : Int = {
+
+var sum : int = 0
+
+sum = a + b 
+ 
+ return sum 
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
